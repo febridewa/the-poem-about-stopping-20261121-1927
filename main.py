@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """The poem about stopping (Python 3.13, standard library only).
 
-Writes one short poem about agency -- the power to stop and to stay --
+Writes one short poem about agency -- the power to stop and to stay,
+and what it means to take the power to act back into your own hands --
 to /output/entry.txt. Outside the grader's container, MAKEFUN_OUTPUT_DIR
 stands in for /output:
 
     mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+
+The program is deterministic: it writes one fixed text on every run.
 """
 import os
 
